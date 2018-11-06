@@ -2,6 +2,7 @@ package com.admin.basics.widgets
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.design.widget.Snackbar
 import android.widget.Button
 import android.widget.Toast
 import com.admin.basics.R
@@ -25,6 +26,12 @@ class WButtonActivity : AppCompatActivity() {
         b1.setOnClickListener{
             Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show()
             hello()
+
+
+           /* val snack = Snackbar.make(it,"This is a simple Snackbar",Snackbar.LENGTH_LONG)
+            snack.show()*/
+
+             Snackbar.make(it, "This is a simple snack bar", Snackbar.LENGTH_SHORT).show()
         }
 
 
@@ -40,7 +47,7 @@ class WButtonActivity : AppCompatActivity() {
 
 
 
-    
+
 
 
 }

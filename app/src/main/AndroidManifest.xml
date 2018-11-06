@@ -15,11 +15,13 @@
         <activity android:name=".widgets.WButtonActivity" />
         <activity android:name=".widgets.WButtonsActivity" />
         <activity android:name=".widgets.WImageActivity" />
-        <activity android:name=".apps.LoginActivity"></activity>
-        <activity android:name=".apps.WebViewActivity">
+        <activity android:name=".apps.LoginActivity" />
+        <activity android:name=".apps.WebViewActivity" />
+        <activity android:name=".dialouges.MyAlertDialougeActivity" />
+        <activity android:name=".apps.TextToSpeechActivity">
 
         </activity>
-        <activity android:name=".dialouges.MyAlertDialougeActivity">
+        <activity android:name=".myIntents.My1Activity" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,8 +29,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-
         </activity>
+        <activity android:name=".myIntents.My2Activity"></activity>
     </application>
 
 </manifest>
