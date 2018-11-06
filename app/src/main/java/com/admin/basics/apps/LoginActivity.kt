@@ -44,6 +44,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                 var a= et_user_name.text;
                 var b= et_password.text
                 Toast.makeText(this,  "$a $b", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,  a.toString()+b.toString(), Toast.LENGTH_SHORT).show()
 
             }
 

@@ -41,7 +41,7 @@ class My1Activity : AppCompatActivity() {
         bi3.setOnClickListener{
 
             val openURL = Intent(android.content.Intent.ACTION_VIEW)
-            openURL.data = Uri.parse("https://www.google.com/")
+            openURL.data = Uri.parse("https://www.facebook.com/")
             startActivity(openURL)
 
         }
