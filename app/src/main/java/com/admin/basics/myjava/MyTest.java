@@ -1,5 +1,7 @@
 package com.admin.basics.myjava;
 
+import com.admin.basics.language.Basics1;
+
 public class MyTest {
 
 
@@ -13,5 +15,15 @@ public class MyTest {
         }
 
     }
+
+    public static void main(String[] args) {
+
+
+        System.out.println("Hello from MyTest");
+
+
+    }
+
+
 
 }
