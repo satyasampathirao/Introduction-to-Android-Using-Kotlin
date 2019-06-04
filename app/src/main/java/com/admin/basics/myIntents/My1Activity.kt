@@ -9,8 +9,6 @@ import android.widget.EditText
 import com.admin.basics.R
 
 
-
-
 class My1Activity : AppCompatActivity() {
 
     lateinit var bi1 : Button
@@ -30,8 +28,10 @@ class My1Activity : AppCompatActivity() {
         bi1.setOnClickListener{
 
             val intent = Intent(this, My2Activity::class.java)
-            // start your next activity
             startActivity(intent)
+
+            /*intent = Intent(applicationContext, My2Activity::class.java)
+            startActivity(intent)*/
 
         }
 
@@ -40,9 +40,17 @@ class My1Activity : AppCompatActivity() {
         //move to browser on button click
         bi3.setOnClickListener{
 
-            val openURL = Intent(android.content.Intent.ACTION_VIEW)
-            openURL.data = Uri.parse("https://www.facebook.com/")
-            startActivity(openURL)
+            /*val openURL = Intent(android.content.Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("https://www.javatpoint.com/")
+            startActivity(openURL)*/
+
+
+            intent = Intent(Intent.ACTION_VIEW)
+            intent.setData(Uri.parse("https://www.facebook.com/"))
+            startActivity(intent)
+
+            /*intent= Intent(Intent.ACTION_VIEW, Uri.parse("https://www.javatpoint.com/"))
+            startActivity(intent)*/
 
         }
 
@@ -53,3 +61,6 @@ class My1Activity : AppCompatActivity() {
 
 
 }
+
+
+

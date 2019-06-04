@@ -54,13 +54,11 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                 et_password.setText("")
             }
 
-
         }
 
 
 
     }
-
 
 
 

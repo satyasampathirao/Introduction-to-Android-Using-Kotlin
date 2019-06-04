@@ -25,5 +25,14 @@
         android:id="@+id/bby"/>
 
 
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:id="@+id/bhello"
+        android:onClick="chello"/>
+
+
 
 </LinearLayout>

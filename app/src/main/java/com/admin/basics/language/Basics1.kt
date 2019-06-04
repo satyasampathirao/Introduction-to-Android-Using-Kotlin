@@ -10,7 +10,13 @@ class Basics1 {
         println("Hello World Satya")
 
         i=i+1;
+        print(i)
 
+    }
+
+    fun hello(x:Int): Int {
+
+        return x
     }
 
     fun loopfor(){
@@ -18,7 +24,6 @@ class Basics1 {
         for (i in 1..5){
             print(i)
         }
-
 
     }
 
