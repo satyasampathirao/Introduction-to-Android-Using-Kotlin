@@ -35,7 +35,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        /*TODO("not implemented") //To change body of created functions use File | Settings | File Templates.*/
 
         when(v?.id){
 
@@ -64,3 +63,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
 
 }
+
+
+
+
