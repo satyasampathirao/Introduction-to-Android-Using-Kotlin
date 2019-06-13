@@ -29,8 +29,6 @@ class MyListViewActivity : AppCompatActivity() {
         listview_1.setAdapter(adapter)
 
 
-
-
         listview_1.onItemClickListener = object : AdapterView.OnItemClickListener {
 
             override fun onItemClick(parent: AdapterView<*>, view: View,
